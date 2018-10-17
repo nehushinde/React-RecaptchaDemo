@@ -32,6 +32,10 @@ class App extends Component {
       <div className="App">
           <div>
             <input type="text" placeholder="mail-id" className="Input"></input>
+            {/* sitekey: go to https://www.google.com/recaptcha/admin#list 
+              add in domains: localhost for test application and register 
+              after reg you will get sitekey.
+            */}
             <Recaptcha
                 sitekey="6LdIF3UUAAAAAPBCHZv1_awjJsQosJ0O4_kSkxvK"
                 render="explicit"
